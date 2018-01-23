@@ -8,12 +8,13 @@ import java.util.List;
  * @author Stractus
  */
 public abstract class £Alive {
-	private int currentLifePoint;
-	private int maxLifePoint;
-	private float movementSpeed;
+	protected int currentLifePoint;
+	protected int maxLifePoint;
+	protected float movementSpeed;
+	protected String name;
 	
-	private £States state=null;
-	private List<MagicResistance> magicResistanceList;
+	protected £States state=null;
+	protected List<MagicResistance> magicResistanceList;
 	
 	
 	/**

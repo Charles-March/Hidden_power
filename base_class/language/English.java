@@ -34,4 +34,10 @@ public class English implements _Language{
 		}
 	}
 
+	@Override
+	public String getItemName(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }

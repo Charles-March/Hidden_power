@@ -1,5 +1,5 @@
 package view;
 
-public interface _ViewableInMenu {
+public interface _ViewableInMenu{
 	
 }

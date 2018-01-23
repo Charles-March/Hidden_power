@@ -16,5 +16,6 @@ public interface _Language {
 	 * 11.Right Hand
 	 */
 	public String getItemSlot(int slot);
+	public String getItemName(int id);
 	
 }
