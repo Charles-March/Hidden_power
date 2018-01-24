@@ -40,4 +40,13 @@ public class English implements _Language{
 		return null;
 	}
 
+	@Override
+	public String getElement(int id) {
+		switch(id){
+			case 0:
+				return "physical";
+		}
+		return null;
+	}
+
 }

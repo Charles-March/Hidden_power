@@ -4,7 +4,6 @@ import java.util.List;
 
 import model.MagicResistance;
 import model.Shop;
-import model.£Alive;
 import playerDefinition.Quest;
 
 public class NPC extends £Alive{

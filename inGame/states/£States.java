@@ -1,4 +1,6 @@
-package model;
+package states;
+
+import alives.£Alive;
 
 public abstract class £States {
 	float applyRatio;

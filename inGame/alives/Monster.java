@@ -1,7 +1,5 @@
 package alives;
 
-import model.£Alive;
-
 public class Monster extends £Alive{
 
 	@Override

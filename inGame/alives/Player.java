@@ -1,7 +1,6 @@
 package alives;
 
 import model.Item;
-import model.£Alive;
 import playerDefinition.Equipment;
 
 public class Player extends £Alive{

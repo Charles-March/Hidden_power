@@ -1,6 +1,10 @@
-package model;
+package alives;
 
 import java.util.List;
+
+import elements.£Element;
+import model.MagicResistance;
+import states.£States;
 
 /**
  * Every alive object such as players, npcs, monsters, etc..

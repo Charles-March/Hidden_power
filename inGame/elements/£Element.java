@@ -1,14 +1,14 @@
-package model;
+package elements;
+
+import states.£States;
 
 public abstract class £Element {
-	private String name;
-	£States state;
+	protected String name;
+	protected £States state;
 	
 	public String getName(){
 		return name;
 	}
-	
-	public abstract void applyEffect();
 	
 	/**
 	 * @param element1

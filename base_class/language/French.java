@@ -38,4 +38,13 @@ public class French implements _Language{
 		// TODO Auto-generated method stub
 		return null;
 	}
+
+	@Override
+	public String getElement(int id) {
+		 switch(id){
+		 	case 0:
+		 		return "physique";
+		 }
+		return null;
+	}
 }

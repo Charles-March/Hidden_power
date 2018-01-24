@@ -2,6 +2,8 @@ package model;
 
 import java.util.List;
 
+import elements.£Element;
+
 public class Characteristics {
 	int damage;
 	£Element element;

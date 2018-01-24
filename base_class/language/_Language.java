@@ -17,5 +17,6 @@ public interface _Language {
 	 */
 	public String getItemSlot(int slot);
 	public String getItemName(int id);
+	public String getElement(int id);
 	
 }

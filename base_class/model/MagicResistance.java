@@ -2,6 +2,8 @@ package model;
 
 import java.util.List;
 
+import elements.£Element;
+
 public class MagicResistance{
 	private £Element element;
 	private float resistRatio;
