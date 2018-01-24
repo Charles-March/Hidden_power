@@ -44,7 +44,25 @@ public class French implements _Language{
 		 switch(id){
 		 	case 0:
 		 		return "physique";
-		 }
+		 	case 1:
+		 		return "feu";
+		 	case 2:
+		 		return "eau";
+		 	case 3:
+		 		return "terre";
+		 	case 4:
+		 		return "air";
+		 	case 5:
+		 		return "électricité";
+		 	case 6:
+		 		return "lumière";
+		 	case 7:
+		 		return "ténèbres";
+		 	case 8:
+		 		return "poison";
+		 	case 9:
+		 		return "sonore";
+		 		}
 		return null;
 	}
 }

@@ -2,7 +2,7 @@ package alives;
 
 import java.util.List;
 
-import elements.£Element;
+import elements.Element;
 import model.MagicResistance;
 import states.£States;
 
@@ -27,7 +27,7 @@ public abstract class £Alive {
 	 * @param element : element of the damage
 	 * @return true if the effect of the element can be applied
 	 */
-	public boolean damage(int damage,£Element element){
+	public boolean damage(int damage,Element element){
 		int index = MagicResistance.findIndex(magicResistanceList, element);
 		if(index != -1){
 			currentLifePoint -= magicResistanceList.get(index).realDamage(damage);
