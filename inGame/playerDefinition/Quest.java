@@ -1,4 +1,4 @@
-package model;
+package playerDefinition;
 
 public class Quest {
 	private String name;

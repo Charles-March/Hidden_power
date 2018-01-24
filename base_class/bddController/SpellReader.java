@@ -1,10 +1,10 @@
 package bddController;
 
-import model.Spell;
+import spells.£Spell;
 
 public class SpellReader {
-
-	public static Spell getSpell(int id){
+	
+	public static £Spell getSpell(int id){
 		//TODO
 		return null;
 	}

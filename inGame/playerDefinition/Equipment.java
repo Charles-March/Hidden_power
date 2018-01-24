@@ -1,4 +1,6 @@
-package model;
+package playerDefinition;
+
+import model.Item;
 
 public class Equipment{
 	/**

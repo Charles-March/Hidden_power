@@ -1,4 +1,4 @@
-package model;
+package playerDefinition;
 
 public class QuestObjectives {
 

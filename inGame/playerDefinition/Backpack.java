@@ -1,6 +1,7 @@
-package model;
+package playerDefinition;
 
 import controller.Config;
+import model.Item;
 
 public class Backpack {
 	private Item[] itemList;

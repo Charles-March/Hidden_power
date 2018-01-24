@@ -3,9 +3,9 @@ package alives;
 import java.util.List;
 
 import model.MagicResistance;
-import model.Quest;
 import model.Shop;
 import model.£Alive;
+import playerDefinition.Quest;
 
 public class NPC extends £Alive{
 	Shop shop=null;
