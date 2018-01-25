@@ -21,12 +21,29 @@ public class NPC extends £Alive{
 	public boolean addQuest(Quest q){
 		if(quest==null){
 			quest=q;
+			q.setGiver(this);
 			return true;
 		}
 		else{
 			return false;
 		}
 	}
+	
+	public void talk(){
+		
+		if(quest!=null){
+			//Quest giver
+			
+		}
+		
+		if(shop!=null){
+			//Shop master
+		}
+		else{
+			//Useless NPC
+		}
+	}
+	
 	
 	@Override
 	protected void dead() {

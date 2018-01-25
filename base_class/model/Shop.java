@@ -8,7 +8,7 @@ public class Shop {
 	
 	public Shop(List<Item> toSell, List<Integer> prices){
 		this.toSell=toSell;
-		this.prices = prices;
+		this.prices=prices;
 	}
 	
 	public List<Item> getItems(){

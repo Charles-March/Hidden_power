@@ -2,7 +2,7 @@ package model;
 
 import java.util.List;
 
-import elements.Element;
+import spells.Element;
 
 public class MagicResistance{
 	private Element element;

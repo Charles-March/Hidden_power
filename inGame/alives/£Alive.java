@@ -2,8 +2,8 @@ package alives;
 
 import java.util.List;
 
-import elements.Element;
 import model.MagicResistance;
+import spells.Element;
 import states.£States;
 
 /**

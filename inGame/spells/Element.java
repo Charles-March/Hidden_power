@@ -1,13 +1,14 @@
-package elements;
+package spells;
+
+import java.util.LinkedList;
 
 import controller.Config;
-import states.£States;
 
 public class Element {
+	private final static int nbElement = 10;
 	protected String name;
-	protected £States state;
 	
-	public Element ElementGenerator(int id){
+	public static Element ElementGenerator(int id){
 		Element e = new Element();
 		e.name=Config.language.getElement(id);
 		return e;
@@ -28,9 +29,14 @@ public class Element {
 	
 	/**
 	 * @return return a list of all the elements
+	 * the element with id 7 is at the 7th position in the list
 	 */
-	public static void getAllElements(){
-		
+	public static LinkedList<Element> getAllElements(){
+		LinkedList<Element> le = new LinkedList<Element>();
+		for(int i=0;i<nbElement;i++){
+			le.add(ElementGenerator(i));
+		}
+		return le;
 	}
 	
 }
