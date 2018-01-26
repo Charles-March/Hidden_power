@@ -2,6 +2,7 @@ package playerDefinition;
 
 import java.util.List;
 
+import controller.Config;
 import model.Item;
 
 public class Reward {
@@ -16,6 +17,6 @@ public class Reward {
 	}
 	
 	public void give(){
-		
+		Config.player.addGold(gold);
 	}
 }

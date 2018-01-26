@@ -5,6 +5,7 @@ import model.Item;
 
 public class Backpack {
 	private Item[] itemList;
+	private int used;
 	private int slots;
 	/**
 	 * @return the maximum amount of object the backpack can carry on
@@ -36,17 +37,23 @@ public class Backpack {
 		return i;
 	}
 	
+	
+	public boolean addItem(Item i){
+		if(used<slots){
+			itemList[used]=i;
+			used++;
+			return true;
+		}
+		else{
+			return false;
+		}
+	}
+	
 	/**
 	 * @return the amount of slot unused in the backpack
 	 */
 	public int freeSlots(){
-		int sums=0;
-		for(int i=0;i<slots;i++){
-			if(itemList[i]==null){
-				sums++;
-			}
-		}
-		return sums;
+		return (slots-used);
 	}
 	
 	/**

@@ -1,0 +1,7 @@
+<monster>
+	<baseHP>100</baseHP>
+	<baseMoveSpeed>0.5</baseMoveSpeed>
+	<baseAttackSpeed>0.5</baseAttackSpeed>
+	<difficultyRate>1</difficultyRate>
+	<movementPattern>S</movementPattern>
+</monster>

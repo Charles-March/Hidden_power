@@ -1,10 +1,14 @@
 package alives;
 
+import java.util.List;
+
 import model.Item;
+import playerDefinition.Backpack;
 import playerDefinition.Equipment;
 
 public class Player extends £Alive{
 	private Equipment equipment;
+	private Backpack backpack;
 	private int gold;
 	
 	
@@ -22,6 +26,26 @@ public class Player extends £Alive{
 		
 	}
 
+	public Item removeItem(int i){
+		return backpack.removeItem(i);
+	}
+	
+	public boolean addItemList(List<Item> li){
+		if(li.size() > backpack.freeSlots()){
+			return false;
+		}
+		else{
+			for(int i=0;i<li.size();i++){
+				backpack.addItem(li.get(i));
+			}
+			return true;
+		}
+	}
+	
+	public boolean addItem(Item i){
+		return backpack.addItem(i);
+	}
+	
 	public int getGold() {
 		return gold;
 	}
