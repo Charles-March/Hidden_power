@@ -1,5 +1,6 @@
 package alives;
 
+import java.awt.Point;
 import java.util.List;
 
 import model.MagicResistance;
@@ -16,6 +17,7 @@ public abstract class £Alive {
 	protected int maxLifePoint;
 	protected float movementSpeed;
 	protected String name;
+	protected Point positionOnMap;
 	
 	protected £States state=null;
 	protected List<MagicResistance> magicResistanceList;
